@@ -1,4 +1,4 @@
-# 32Bit_ALU Simulation
+# EXP-3:32Bit_ALU Simulation
 
 # Aim: 
 
@@ -60,6 +60,9 @@ source /cadence/install/cshrc (mention the path of the tools)
       
 After this you can see the window like below 
 
+![Screenshot (67)](https://github.com/user-attachments/assets/e6c34f31-1689-4847-bc2a-9904a5538247)
+
+
 ### Fig 2: Invoke the Cadence Environment
 
 To Launch Simulation tool 
@@ -73,11 +76,17 @@ or
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
+![Screenshot (68)](https://github.com/user-attachments/assets/e5ce2e0e-723e-4ee5-8d8a-e679db3372e1)
+
+
 ### Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
+
+![Screenshot (69)](https://github.com/user-attachments/assets/dad9b2bb-0714-49ee-b004-01761f57e598)
+
 
 ### Fig 4:cds.lib file Creation
 
@@ -103,6 +112,9 @@ To perform the function simulation, the following three steps are involved Compi
 
 ### Fig 6: Nclaunch Window
 
+![Screenshot (71)](https://github.com/user-attachments/assets/574ea64b-ab3b-4f98-83e5-a15007bab525)
+
+
 ## Step 1: Compilation:
 
 – Process to check the correct Verilog language syntax and usage 
@@ -124,6 +136,10 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+
+
+![Screenshot (72)](https://github.com/user-attachments/assets/43bf22ad-42af-44bd-802f-692f7d57e170)
+
 
 ### Fig 7: Compiled database in worklib
 
@@ -159,6 +175,9 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
 
+![Screenshot (73)](https://github.com/user-attachments/assets/ad584f1b-eed6-4b52-bce4-2fddcfa064db)
+
+
 ## Fig 8: Elaboration Launch Option
 
 ## Step 3: Simulation: 
@@ -173,9 +192,18 @@ Simulation allow to dump design and test bench signals into a waveform
 
 Steps for simulation – Run the simulation command with simulator options
 
+![Screenshot (74)](https://github.com/user-attachments/assets/5a6571b1-ce1f-4b00-ae39-96b809bac4e5)
+
+
 ## Fig 9: Design Browser window for simulation
 
+![Screenshot (75)](https://github.com/user-attachments/assets/97b6ee32-315a-4d79-801f-55861f6c60cd)
+
+
 ## Fig 10:Simulation Waveform Window
+
+![Screenshot (76)](https://github.com/user-attachments/assets/cbbf817c-b8ac-47d3-a6d0-dba4a3efe83f)
+
 
 ## Fig 11:Simulation Waveform Window
 
